@@ -1,0 +1,28 @@
+.main-content {
+    width: 100%;
+    padding: 60px 60px;
+    background-image: url(../assets/half-react-icon.png);
+    background-repeat: no-repeat;
+    background-position: right 69%;
+}
+
+.facts {
+    margin-top: 40px;
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.facts > li {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.facts > li::marker {
+    font-size: 1.8rem;
+    color: #61dafb;
+}
+
+.background-image {
+    position: fixed;
+    right: 0;
+}
