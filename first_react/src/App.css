@@ -1,3 +1,16 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding-bottom: 20px;
+    background-color: #21222A;
+}
+
 body {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,10 +19,21 @@ body {
 }
 
 h1 {
-    margin-top: 30px;
+    margin-top: 10%;
 }
 
-/* Header styles */
+/* List styles */
+li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+li::marker {
+    color: #61dafb;
+}
+
+
+/* Header Components */
 .icon {
     float:left;
     padding-top: 32px;
@@ -20,30 +44,20 @@ h1 {
     font-size: 24px;
     color: #61dafb;
     padding-left : 60px;
-    padding-top : 10px;
+    padding-top : 14px;
     
 }
 
-.header {
-    display: inline-block;
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    padding-bottom: 20px;
-    background-color: #21222A;
+/* Navigation bar */
+.nav-list {
+    list-style: none;
+    display: flex;
 }
 
-/* List styles */
-
-li {
-    font-size: 20px;
-    padding: 10px;
-}
-
-li::marker {
-    color: #61dafb;
+.nav-list-item {
+    font-size: 1.1rem;
+    padding-top: 14px;
+    margin-right: 14px;
 }
 
 /* React Icon */
